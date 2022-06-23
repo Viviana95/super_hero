@@ -1,4 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
+import Favorites from "../components/Favorites.vue";
+import Races from "../components/Races.vue";
+import Stats from "../components/Stats.vue";
 import HomeView from "../views/HomeView.vue";
 
 const router = createRouter({
@@ -20,17 +23,17 @@ const router = createRouter({
     {
       path: "/stats",
       name: "stats",
-      component: HomeView,
+      component: Stats,
     },
     {
-      path: "/razes",
-      name: "razes",
-      component: HomeView,
+      path: "/races",
+      name: "races",
+      component: Races,
     },
     {
       path: "/favorites",
       name: "favorites",
-      component: HomeView,
+      component: Favorites,
     },
   ],
 });

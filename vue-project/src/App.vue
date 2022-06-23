@@ -20,8 +20,8 @@ import HelloWorld from "@/components/HelloWorld.vue";
         <RouterLink to="/">Home</RouterLink>
         <!-- <RouterLink to="/about">About</RouterLink> -->
         <RouterLink to="/stats">Power Stats</RouterLink>
-        <RouterLink to="/stats">Favorites</RouterLink>
-        <RouterLink to="/stats">Razes</RouterLink>
+        <RouterLink to="/favorites">Favorites</RouterLink>
+        <RouterLink to="/races">Races</RouterLink>
    
       </nav>
     </div>
