@@ -1,8 +1,10 @@
 <script>
+
 </script>
+
 <template>
-  <div>
-    <h1>fdglhjegoiel</h1>
-  </div>
+    <h1>Favorites</h1>
+    <div v-for="superHero in $root.favourites">
+        {{superHero.name}}
+    </div>
 </template>
-<style lang="scss" scoped></style>

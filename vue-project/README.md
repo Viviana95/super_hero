@@ -15,7 +15,11 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 npm install
 ```
-npm i sass
+## Google Fonts
+font-family: 'Kelly Slab', cursive;
+font-family: 'Kenia', cursive;
+font-family: 'Koh Santepheap', cursive;
+font-family: 'KoHo', sans-serif;
 
 ### Compile and Hot-Reload for Development
 
@@ -40,3 +44,7 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### SASS installation
+
+npm i sass

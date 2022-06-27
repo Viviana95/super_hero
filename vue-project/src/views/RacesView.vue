@@ -1,8 +1,10 @@
 <script setup>
-import Races from "../components/Races.vue";
+    import Races from "@/components/Races.vue";
+
 </script>
 <template>
-  <main>
-    <Races />
-  </main>
+    <Races></Races>
 </template>
+<style lang="scss">
+
+</style>

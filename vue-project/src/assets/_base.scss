@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    // $text-gold: hsl(54, 69%, 64%);
+    $font-size: 15px;
+}
+body {
+    font-family: 'KoHo', sans-serif;
+}
+h1, h3{
+    color: #FFF27D;
+    font-weight: 400;
+    font-family: 'Kenia', cursive;
+    -webkit-text-stroke: 1px black
+}
+h1{
+    font-size: clamp(25px, 4vw, 52px);
+    word-spacing: 1vw;
+    letter-spacing: 2px;
+}
+h2{
+    font-size: clamp(20px, 2vw, 33px);    
+}
+h3{
+    font-size: clamp(18px, 1.8vw, 25px);
+}
+h4 {
+    font-size: clamp(16px, 1.6vw, 22px);
+    font-family: 'Kelly Slab', cursive;
+}
+
+    // background-color: $text-gold;
