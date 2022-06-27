@@ -9,9 +9,11 @@
     </div>
     <h1>Favorites</h1>
     <div v-for="superHero in $root.favourites">
-        {{superHero.name}}
+        <p>{{superHero.name}}</p>
     </div>
 </template>
 <style lang="scss">
-
+    p{
+        color: white;
+    }
 </style>
